@@ -21,6 +21,7 @@ class TacticianServiceProvider implements ServiceProviderInterface
      */
     public function register(Container $container)
     {
+        $container['tactician.inflector'] = 'handle';
         $container['tactician.middlewares'] = [];
 
         $container['tactician.middleware.locking'] = function () {
