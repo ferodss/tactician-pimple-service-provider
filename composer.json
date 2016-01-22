@@ -1,0 +1,33 @@
+{
+    "name": "ferodss/tactician-pimple-service-provider",
+    "description": "Pimple Tactician service provider",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Felipe Rodrigues",
+            "email": "felipe.rodrigues@rocket-internet.com.br"
+        }
+    ],
+    "config": {
+        "bin-dir": "bin"
+    },
+    "require": {
+        "php": "~5.5|~7.0",
+        "pimple/pimple": "~3.0",
+        "league/tactician": "~1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~5.0",
+        "squizlabs/php_codesniffer": "~2.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pimple\\Tactician\\Provider\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Pimple\\Test\\Tactician\\Provider\\": "tests"
+        }
+    }
+}
