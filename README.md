@@ -11,7 +11,7 @@ Basesd on [Atriedes Silex service provider](https://github.com/Atriedes/tacticia
 
 ## Requirements
 
-* PHP >= 5.5
+* PHP >= 5.6
 * Pimple >= 3.0
 * Tactician >= 1.0
 
