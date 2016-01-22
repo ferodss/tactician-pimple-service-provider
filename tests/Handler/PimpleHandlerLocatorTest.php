@@ -9,8 +9,8 @@ class PimpleHandlerLocatorTest extends \PHPUnit_Framework_TestCase
 {
     public function testIsGettingHandler()
     {
-        $commandName = 'FakeCommand';
-        $handlerId = 'app.command.FakeCommand_handler';
+        $commandName = 'fake_command';
+        $handlerId = 'app.command.fake_handler';
         $handler = new \stdClass();
 
         $container = $this->prophesize(Container::class);
@@ -27,8 +27,8 @@ class PimpleHandlerLocatorTest extends \PHPUnit_Framework_TestCase
      */
     public function testIsThrowingExceptionForNotFoundHandler()
     {
-        $commandName = 'FakeCommand';
-        $handlerId = 'app.command.FakeCommand_handler';
+        $commandName = 'fake_command';
+        $handlerId = 'app.command.fake_handler';
 
         $container = $this->prophesize(Container::class);
         $container->offsetGet($handlerId)->willThrow(new \InvalidArgumentException());

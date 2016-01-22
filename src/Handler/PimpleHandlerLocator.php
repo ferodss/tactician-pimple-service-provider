@@ -26,7 +26,7 @@ class PimpleHandlerLocator implements HandlerLocator
      */
     public function getHandlerForCommand($commandName)
     {
-        $handlerId = sprintf('app.command.%s_handler', $commandName);
+        $handlerId = 'app.command.' . str_replace('_command', '_handler', $commandName);
 
         try {
             return $this->container[$handlerId];
