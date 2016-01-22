@@ -1,7 +1,7 @@
 # Tactician Pimple Service Provider
 
 [![Build Status](https://travis-ci.org/ferodss/tactician-pimple-service-provider.svg?branch=master)](https://travis-ci.org/ferodss/tactician-pimple-service-provider)
-![License](https://img.shields.io/badge/license-MIT-brightgreen.svg)
+[![License](https://img.shields.io/badge/license-MIT-brightgreen.svg)](https://github.com/ferodss/tactician-pimple-service-provider#licence)
 
 Provides [Tactician](https://github.com/thephpleague/tactician/) as service to 
 [Pimple](https://github.com/silexphp/Pimple) container.
