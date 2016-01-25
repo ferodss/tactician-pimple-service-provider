@@ -2,12 +2,6 @@
     "name": "ferodss/tactician-pimple-service-provider",
     "description": "Pimple Tactician service provider",
     "license": "MIT",
-    "authors": [
-        {
-            "name": "Felipe Rodrigues",
-            "email": "felipe.rodrigues@rocket-internet.com.br"
-        }
-    ],
     "config": {
         "bin-dir": "bin"
     },
